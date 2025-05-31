@@ -1,3 +1,17 @@
+ :root {
+    --main-color:pink;
+    --border:0.1rem solid rgba(255, 255, 255, 0.4);
+
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
@@ -10,15 +24,35 @@
     transition: 0.2s ease;
  }
  
+ html {
+    font-size: 62.5%
+    overflow-x hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+ }
+ body{
+    background-color: rgb(156, 67, 240);
+ }
  
- 
- 
- 
- 
- 
- 
- 
- .logo img { 
+  .logo img { 
         height: 7rem;
 
     }
+
+   .header .logo img { 
+        height: 7rem;
+
+    }
+    
+    .header { 
+        background-color: beige;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 7%;
+        margin: 2rem 7%;
+        border-radius: 30rem;
+
+
+    }
+    
