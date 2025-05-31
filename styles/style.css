@@ -25,13 +25,14 @@
  }
  
  html {
-    font-size: 62.5%
-    overflow-x hidden;
+    font-size: 62.5%;
+    overflow-x: hidden;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
  }
  body{
     background-color: rgb(156, 67, 240);
+    height: 200vh;
  }
  
   .logo img { 
@@ -52,7 +53,17 @@
         padding: 0 7%;
         margin: 2rem 7%;
         border-radius: 30rem;
+         z-index: 1000;
 
 
     }
-    
+    .header .navbar a{
+        margin: 0 1rem;
+        font-size: 1.6rem;
+        color:black;
+        border-bottom:0.1rem solid transparent;
+    }
+     .header .navbar a:hover{
+        border-color: blueviolet;
+        padding-bottom: 0.5rem;
+     }
