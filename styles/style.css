@@ -39,7 +39,11 @@
  section{
    padding: 3.5rem 7%;
  }
+a {
+    color:black;
+    text-decoration: none;
 
+}
  .btn {
     margin-top: 1rem;
     display: inline-block;
@@ -169,4 +173,52 @@ border-bottom:0.1rem solid #fff ;
         font-weight: 300;
         font-size: 1.5rem;
         text-decoration:line-through;
+      }
+
+      .products .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        gap:1.5rem;
+      }
+
+      .products .box-container .box {
+        text-align: center;
+        background-color: #fff;
+        position: relative;
+        border-radius: 3rem;
+        height: 60rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 3rem;
+
+      }
+      .products .box-container .box  .box-head {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        z-index: 10;
+
+      }
+      .products .box-container .box  .box-head .title{
+        font-size: 1.4rem;
+      }
+   
+       .products .box-container .box  .box-head .name{
+         font-weight: bold;
+        font-size: 4rem;
+        text-align: start;
+        overflow-wrap: anywhere;
+      }
+
+      .products .box-container img{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        width: 100%;
+        object-fit: cover;
+        transform: translate(-50%, -50%);
+        border-radius: 3rem;
+
       }
