@@ -190,7 +190,8 @@ border-bottom:0.1rem solid #fff ;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 3rem;
+        padding: 0;  
+
 
       }
       .products .box-container .box  .box-head {
