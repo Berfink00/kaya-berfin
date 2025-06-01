@@ -270,6 +270,6 @@ border-bottom:0.1rem solid #fff ;
         flex: 1 1 45rem;
       }
 
-       .about .row .img {
-        width: auto;
+       .about .row img {
+        width: 100%;
       }
