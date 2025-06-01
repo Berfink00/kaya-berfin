@@ -592,4 +592,12 @@ border-bottom:0.1rem solid #fff ;
             font-size: 2rem;
         
     }
+} @media (max-width:768px){
+    html{
+        font-size: 50%;
+
+    }
+    .header #menu-btn {
+        display: inline-block;
+    }
 }
