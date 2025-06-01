@@ -93,7 +93,7 @@
      background: url(../imagess/mathew-schwartz-GjzJFMnJZYg-unsplash.jpg)
      no-repeat;
      background-size: cover;
-     margin-top: -14.5rem;
+     margin-top: 0;
      align-items: center;
 
      }
@@ -106,7 +106,7 @@
 
       }
       .home .content .p {
-        font-size: 2rem;
+        font-size: 5rem;
         font-weight: 300;
          line-height: 1.8;
         padding: 1rem 0;
@@ -115,6 +115,6 @@
 
       .menu .box-container {
         display:grid;
-        
+
 
       }
