@@ -123,7 +123,7 @@
     background-color: #fff;
     border-radius: 3rem;
     background-color: #fff;
-    min-height: 60rem;
+    min-height: 40rem;  /*burası 60dı*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -139,6 +139,7 @@
         font-size: 1.2rem;
       }
       
-      .menu .box-container .box .h3{
+      .menu .box-container .box h3{
         font-size: 1.2rem;
+        padding: 1rem 0;
       }
