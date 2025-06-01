@@ -38,7 +38,7 @@
  section{
    padding: 3.5rem 7%;
  }
- 
+
  .btn {
     margin-top: 1rem;
     display: inline-block;
@@ -88,7 +88,7 @@
      }
      .home {
      min-height: 100vh;
-     background: url(../imagess/mathew-schwartz-GjzJFMnJZYg-unsplash.jpg)
+     background: url(../imagess/Pasta-alla-norma-87c54fc.jpg)
      no-repeat;
      background-size: cover;
      background-position: center;
@@ -101,12 +101,12 @@
         max-width: 60rem;
       }
       .home .content .h3{
-        font-size: 6rem;  /*bura 6ydı */
+        font-size: 15rem;  /*bura 6ydı */
         color: white;
 
       }
       .home .content .p {
-        font-size: 2rem;  /* bura 5remdi*/
+        font-size: 5rem;  /* bura 5remdi*/
         font-weight: 300;
          line-height: 1.8;
         padding: 1rem 0;   /*1di */
