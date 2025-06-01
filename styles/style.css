@@ -49,6 +49,19 @@
     background-color: black;
     cursor: pointer;
  }
+ .heading {
+color:#fff;
+text-transform: uppercase;
+font-size: 4rem;
+margin-bottom: 5rem;
+border-bottom:0.1rem solid #fff ;
+
+ }
+ .heading span {
+    text-transform: uppercase;
+    color:black;
+
+ }
  
 
    .header .logo img { 
@@ -142,4 +155,13 @@
       .menu .box-container .box h3{
         font-size: 1.2rem;
         padding: 1rem 0;
+      }
+      .menu .box-container .box .price {
+        font-size: 2.5rem;
+        padding: 0.5rem 0;
+      }
+      .menu .box-container.box .price span{
+        font-weight: 300;
+        font-size: 1.5rem;
+        text-decoration:line-through;
       }
