@@ -217,7 +217,7 @@ border-bottom:0.1rem solid #fff ;
         position: static;  
         top:0%;
         left: 5%;
-        width: 100%;
+        width: auto;
         height: 200px;
         object-fit: contain;
        overflow: hidden;
@@ -225,5 +225,41 @@ border-bottom:0.1rem solid #fff ;
         display: flex;
         align-items: center;
         justify-content: center;
+
+      }
+      .products .box-container .box-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 10;
+      }
+
+      .products .box-container .box-bottom .info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+      }
+      .products .box-container .box-bottom .info .price{
+        font-size: 3rem;
+
+      }
+      .products .box-container .box-bottom .info .amount{
+        font-size: 1.4rem;
+      }
+      .products .box-container .box-bottom .product-btn a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        width: 6.5rem;
+        height: 6.5rem;
+        border: 0.2rem solid rgb(201, 17, 48);
+
+      }
+      .products .box-container .box-bottom .product-btn a i {
+        font-size: 1.6rem;
+        color: rgb(201, 17, 48);
 
       }
