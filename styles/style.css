@@ -264,6 +264,11 @@ border-bottom:0.1rem solid #fff ;
 
       }
 
+      .about .row{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 2rem;
+      }
 
       /* about*/
       .about .row .image {
