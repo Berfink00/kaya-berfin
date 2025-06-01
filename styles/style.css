@@ -190,7 +190,7 @@ border-bottom:0.1rem solid #fff ;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 0;  
+        padding: 6rem;  
 
 
       }
@@ -214,7 +214,7 @@ border-bottom:0.1rem solid #fff ;
       }
 
       .products .box-container img{
-        position: absolute;
+        position: static;
         top:0%;
         left: 0%;
         width: 100%;
