@@ -148,7 +148,13 @@ border-bottom:0.1rem solid #fff ;
       width: 35;
       background-color: #fff;
       box-shadow:0px 20px 14px 0px rgb(0 0 0 / 75%);
+      right: -100%;
      }
+
+     .header .cart-items-container.active{
+        right: 3rem;
+     }
+
  .header .cart-items-container .cart-item{
    position: relative;
    display: flex;
@@ -173,9 +179,14 @@ border-bottom:0.1rem solid #fff ;
 
  }
 .header .cart-items-container .cart-item .price {
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     color: var(black );
 
+}
+.header .cart-items-container .btn {
+  width: 100%;
+  text-align: center;
+  border-radius:unset ;  
 }
 
       .header #menu-btn{
