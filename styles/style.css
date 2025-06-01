@@ -134,3 +134,11 @@
         width: 100%;
         object-fit: cover;
       }
+
+      .menu .box-container .box .menu-category {
+        font-size: 1.2rem;
+      }
+      
+      .menu .box-container .box .h3{
+        font-size: 1.2rem;
+      }
